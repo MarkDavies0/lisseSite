@@ -77,8 +77,6 @@ firstImg {
   }
 }
 
-
-
 .firstImg {
   height: 45vh;
   display: block;
@@ -93,7 +91,7 @@ firstImg {
   display: block;
   background: rgba(255, 255, 255, 0.416);
   box-shadow: inset 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
-  padding-bottom: 30px;
+  padding-bottom: 20px;
   margin-bottom: 70px;
   margin-top: 35px;
   border-top: 3px gray;
@@ -147,6 +145,15 @@ h2 {
 
 .downloadButton:hover {
   background-color: rgb(0, 146, 0);
+}
+
+#downloadVersion {
+  margin: auto;
+  display: block;
+  color: grey;
+  font-size: 13px;
+  text-align: center;
+  padding-top: 20px;
 }
 
 .firstContainer {
@@ -235,7 +242,7 @@ body {
 .gifContainer {
   margin: auto;
   display: block;
-  height: 140vh;
+  height: 70vw;
   background: rgba(255, 255, 255, 0.416);
   box-shadow: inset 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
   padding-bottom: 30px;
@@ -261,5 +268,11 @@ body {
 @media only screen and (max-width: 1200px) {
   .firstContainer {
     width: 85vw;
+  }
+  .bottomGif {
+    width: 85vw;
+  }
+  .gifContainer {
+    height: 220vw;
   }
 }
