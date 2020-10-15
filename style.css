@@ -1,231 +1,265 @@
 firstImg {
-    transform: scale(1.1) scaleZ(0) rotateX(-11deg) rotateY(11deg);
-transform-origin: 9% 0%;
-perspective: 0;-webkit-transform: scale(1.1) scaleZ(0) rotateX(-11deg) rotateY(11deg);
--webkit-transform-origin: 9% 0%;
--webkit-perspective: 0;
--webkit-perspective-origin: 50% 50%;
--moz-transform: scale(1.1) scaleZ(0) rotateX(-11deg) rotateY(11deg);
--moz-transform-origin: 9% 0%;
--moz-perspective: 0;
--moz-perspective-origin: 50% 50%;
--o-transform: scale(1.1) scaleZ(0) rotateX(-11deg) rotateY(11deg);
--o-transform-origin: 9% 0%;
--o-perspective: 0;
--o-perspective-origin: 50% 50%;
--ms-transform: scale(1.1) scaleZ(0) rotateX(-11deg) rotateY(11deg);
--ms-transform-origin: 9% 0%;
--ms-perspective: 0;
--ms-perspective-origin: 50% 50%;
-transform: scale(1.1) scaleZ(0) rotateX(-11deg) rotateY(11deg);
-transform-origin: 9% 0%;
-perspective: 0;
-perspective-origin: 50% 50%;
+  transform: scale(1.1) scaleZ(0) rotateX(-11deg) rotateY(11deg);
+  transform-origin: 9% 0%;
+  perspective: 0;
+  -webkit-transform: scale(1.1) scaleZ(0) rotateX(-11deg) rotateY(11deg);
+  -webkit-transform-origin: 9% 0%;
+  -webkit-perspective: 0;
+  -webkit-perspective-origin: 50% 50%;
+  -moz-transform: scale(1.1) scaleZ(0) rotateX(-11deg) rotateY(11deg);
+  -moz-transform-origin: 9% 0%;
+  -moz-perspective: 0;
+  -moz-perspective-origin: 50% 50%;
+  -o-transform: scale(1.1) scaleZ(0) rotateX(-11deg) rotateY(11deg);
+  -o-transform-origin: 9% 0%;
+  -o-perspective: 0;
+  -o-perspective-origin: 50% 50%;
+  -ms-transform: scale(1.1) scaleZ(0) rotateX(-11deg) rotateY(11deg);
+  -ms-transform-origin: 9% 0%;
+  -ms-perspective: 0;
+  -ms-perspective-origin: 50% 50%;
+  transform: scale(1.1) scaleZ(0) rotateX(-11deg) rotateY(11deg);
+  transform-origin: 9% 0%;
+  perspective: 0;
+  perspective-origin: 50% 50%;
 }
 
 @keyframes depthRotate {
-    50% {
-        transform: scale(1.1) scaleZ(0) rotateX(-11deg) rotateY(11deg);
-        transform-origin: 9% 0%;
-        perspective: 0;-webkit-transform: scale(1.1) scaleZ(0) rotateX(-11deg) rotateY(11deg);
-        -webkit-transform-origin: 9% 0%;
-        -webkit-perspective: 0;
-        -webkit-perspective-origin: 50% 50%;
-        -moz-transform: scale(1.1) scaleZ(0) rotateX(-11deg) rotateY(11deg);
-        -moz-transform-origin: 9% 0%;
-        -moz-perspective: 0;
-        -moz-perspective-origin: 50% 50%;
-        -o-transform: scale(1.1) scaleZ(0) rotateX(-11deg) rotateY(11deg);
-        -o-transform-origin: 9% 0%;
-        -o-perspective: 0;
-        -o-perspective-origin: 50% 50%;
-        -ms-transform: scale(1.1) scaleZ(0) rotateX(-11deg) rotateY(11deg);
-        -ms-transform-origin: 9% 0%;
-        -ms-perspective: 0;
-        -ms-perspective-origin: 50% 50%;
-        transform: scale(1.1) scaleZ(0) rotateX(-11deg) rotateY(11deg);
-        transform-origin: 9% 0%;
-        perspective: 0;
-        perspective-origin: 50% 50%;
-    }
-    100% {
-        transform: scale(1) scaleZ(1) rotateX(0) rotateY(0);
-        transform-origin: 0% 0%;
-        perspective: 0;-webkit-transform: scale(1) scaleZ(1) rotateX(0) rotateY(0);
-        -webkit-transform-origin: 0% 0%;
-        -webkit-perspective: 0;
-        -webkit-perspective-origin: 100% 100%;
-        -moz-transform: scale(1) scaleZ(1) rotateX(0) rotateY(0);
-        -moz-transform-origin: 0% 0%;
-        -moz-perspective: 0;
-        -moz-perspective-origin: 100% 100%;
-        -o-transform: scale(1) scaleZ(1) rotateX(0) rotateY(0);
-        -o-transform-origin: 9% 0%;
-        -o-perspective: 0;
-        -o-perspective-origin: 100% 100%;
-        -ms-transform:scale(1) scaleZ(1) rotateX(0) rotateY(0);
-        -ms-transform-origin: 9% 0%;
-        -ms-perspective: 0;
-        -ms-perspective-origin: 100% 100%;
-        transform: scale(1) scaleZ(1) rotateX(0) rotateY(0);
-        transform-origin: 0% 0%;
-        perspective: 0;
-        perspective-origin: 100% 100%;
-    }
+  50% {
+    transform: scale(1.1) scaleZ(0) rotateX(-11deg) rotateY(11deg);
+    transform-origin: 9% 0%;
+    perspective: 0;
+    -webkit-transform: scale(1.1) scaleZ(0) rotateX(-11deg) rotateY(11deg);
+    -webkit-transform-origin: 9% 0%;
+    -webkit-perspective: 0;
+    -webkit-perspective-origin: 50% 50%;
+    -moz-transform: scale(1.1) scaleZ(0) rotateX(-11deg) rotateY(11deg);
+    -moz-transform-origin: 9% 0%;
+    -moz-perspective: 0;
+    -moz-perspective-origin: 50% 50%;
+    -o-transform: scale(1.1) scaleZ(0) rotateX(-11deg) rotateY(11deg);
+    -o-transform-origin: 9% 0%;
+    -o-perspective: 0;
+    -o-perspective-origin: 50% 50%;
+    -ms-transform: scale(1.1) scaleZ(0) rotateX(-11deg) rotateY(11deg);
+    -ms-transform-origin: 9% 0%;
+    -ms-perspective: 0;
+    -ms-perspective-origin: 50% 50%;
+    transform: scale(1.1) scaleZ(0) rotateX(-11deg) rotateY(11deg);
+    transform-origin: 9% 0%;
+    perspective: 0;
+    perspective-origin: 50% 50%;
   }
-  
-  .firstImg {  
-      height: 45vh;
-      display: block;
-      margin: auto;
-      border-radius: 10px;
-      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    /* animation: 9s ease-out infinite depthRotate; */
+  100% {
+    transform: scale(1) scaleZ(1) rotateX(0) rotateY(0);
+    transform-origin: 0% 0%;
+    perspective: 0;
+    -webkit-transform: scale(1) scaleZ(1) rotateX(0) rotateY(0);
+    -webkit-transform-origin: 0% 0%;
+    -webkit-perspective: 0;
+    -webkit-perspective-origin: 100% 100%;
+    -moz-transform: scale(1) scaleZ(1) rotateX(0) rotateY(0);
+    -moz-transform-origin: 0% 0%;
+    -moz-perspective: 0;
+    -moz-perspective-origin: 100% 100%;
+    -o-transform: scale(1) scaleZ(1) rotateX(0) rotateY(0);
+    -o-transform-origin: 9% 0%;
+    -o-perspective: 0;
+    -o-perspective-origin: 100% 100%;
+    -ms-transform: scale(1) scaleZ(1) rotateX(0) rotateY(0);
+    -ms-transform-origin: 9% 0%;
+    -ms-perspective: 0;
+    -ms-perspective-origin: 100% 100%;
+    transform: scale(1) scaleZ(1) rotateX(0) rotateY(0);
+    transform-origin: 0% 0%;
+    perspective: 0;
+    perspective-origin: 100% 100%;
   }
+}
 
-  .mainContainer {
-    margin: auto;
-    display: block;
-    background: rgba(255, 255, 255, 0.416);
-    box-shadow: inset 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
-    padding-bottom: 30px;
-    margin-bottom: 70px;
-    margin-top: 35px;
-    border-top: 3px gray;
-    border-bottom: 3px gray;
-  }
 
-  h1 {
-      padding-top: 30px;
-      text-align: center;
-      font-family: "Helvetica Neue", helvetica, arial, sans-serif;
-      font-weight: 500;
-      -webkit-font-smoothing: antialiased;
-  }
 
-  h2 {
-    text-align: center;
-    font-family: 'Source Sans Pro', "Helvetica Neue", helvetica, arial, sans-serif;
-    font-weight: 300;
-  }
-  
+.firstImg {
+  height: 45vh;
+  display: block;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  /* animation: 9s ease-out infinite depthRotate; */
+}
 
-  .downloadButton {
-    margin: auto;
-    display: block;
-    background-color: green;
-    border: 1px rgb(14, 90, 161);
-    color: white;
-    padding: 12px 30px;
-    cursor: pointer;
-    font-size: 18px;
-    border-radius: 10px;
-    font-family: 'Source Sans Pro Light', "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", helvetica, arial, sans-serif;
-  }
+.mainContainer {
+  margin: auto;
+  display: block;
+  background: rgba(255, 255, 255, 0.416);
+  box-shadow: inset 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+  padding-bottom: 30px;
+  margin-bottom: 70px;
+  margin-top: 35px;
+  border-top: 3px gray;
+  border-bottom: 3px gray;
+}
+
+h1 {
+  float: right;
+  padding-top: 30px;
+  text-align: center;
+  font-family: "Helvetica Neue", helvetica, arial, sans-serif;
+  font-weight: 500;
+  -webkit-font-smoothing: antialiased;
+}
+
+h2 {
+  text-align: center;
+  font-family: 'Source Sans Pro', "Helvetica Neue", helvetica, arial, sans-serif;
+  font-weight: 300;
+}
+
+#logo {
+  display: block;
+  float: left;
+  height: 8em;
+  width: auto;
+  margin: auto;
+}
+
+#logoContainer {
+  height: 8em;
+  padding-bottom: 20px;
+  padding-top: 40px;
+  margin: auto;
+  width: 13em;
+  display: block;
+}
+
+.downloadButton {
+  margin: auto;
+  display: block;
+  background-color: green;
+  border: 1px rgb(14, 90, 161);
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 18px;
+  border-radius: 10px;
+  font-family: 'Source Sans Pro Light', "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", helvetica, arial, sans-serif;
+}
 
 .downloadButton:hover {
-    background-color:rgb(0, 146, 0);
-  }
-
-  .firstContainer {
-    /* padding-top: 50px; */
-    margin: auto;
-    display: block;
-    width: 60vh;
-    /* height: 40vh; */
-  }
-
-  #list {
-    padding:0;
-    margin:0;
+  background-color: rgb(0, 146, 0);
 }
 
-  .item {
-    min-width:25em;
-    height: 60px;
-    min-height: 45px;
-    position: relative;
-    list-style: none;
-    padding: 0;
-    margin-bottom: 20px;
+.firstContainer {
+  /* padding-top: 50px; */
+  margin: auto;
+  display: block;
+  width: 35vw;
+  /* height: 40vh; */
 }
 
-  .detail {
-    border-radius: 10px;
-      background: white;
-float: right;
-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+#list {
+  padding: 0;
+  margin: 0;
+}
+
+.item {
+  min-width: 25em;
+  height: 60px;
+  min-height: 45px;
+  position: relative;
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.detail {
+  border-radius: 10px;
+  background: white;
+  float: right;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
 }
 
 .detail p {
-    padding-left: 16px;
-padding-right: 16px;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
 .icon {
-    /* border-color: green;
+  /* border-color: green;
     border-width: 4px; */
-    background: rgba(0, 128, 0, 0.908);
-    width: 44px;
-    height: 44px;
+  background: rgba(0, 128, 0, 0.908);
+  width: 44px;
+  height: 44px;
   border-radius: 10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
   float: left;
   margin-top: 3px;
 }
-  #icon:hover {
-background: white;
-  }
 
-  .iconSvg {
-        /* position: relative; */
-        top: 50%;
-        left: 50%;
-        width: 20px;
-        height: 20px;
-        margin-top: 12px; /* Half the height */
-        margin-left: 12px; /* Half the width */
-        transition: all .2s ease-in-out;
-  }
+#icon:hover {
+  background: white;
+}
 
-  .iconLock {
-    top: 50%;
-        left: 50%;
-        margin-top: 12px; /* Half the height */
-        margin-left: 15px; /* Half the width */
-    width: auto;
-    height: 20px;
-  }
+.iconSvg {
+  /* position: relative; */
+  top: 50%;
+  left: 50%;
+  width: 20px;
+  height: 20px;
+  margin-top: 12px;
+  /* Half the height */
+  margin-left: 12px;
+  /* Half the width */
+  transition: all .2s ease-in-out;
+}
 
-  body {
-    font-family: 'Source Sans Pro', "Helvetica Neue", helvetica, arial, sans-serif;
-      background: rgb(229, 231, 236);
-      margin-top: 10px;
-      margin-left: 0;
-      margin-right: 0;
-  }
+.iconLock {
+  top: 50%;
+  left: 50%;
+  margin-top: 12px;
+  /* Half the height */
+  margin-left: 15px;
+  /* Half the width */
+  width: auto;
+  height: 20px;
+}
 
-  .gifContainer {
-    margin: auto;
-    display: block;
-    height: 80vh;
-    background: rgba(255, 255, 255, 0.416);
-    box-shadow: inset 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
-    padding-bottom: 30px;
-    margin-bottom: 70px;
-    margin-top: 35px;
-    border-top: 3px gray;
-    border-bottom: 3px gray;
-    padding-left: 5vw;
-    padding-right: 5vw;
-  }
+body {
+  font-family: 'Source Sans Pro', "Helvetica Neue", helvetica, arial, sans-serif;
+  background: rgb(229, 231, 236);
+  margin-top: 10px;
+  margin-left: 0;
+  margin-right: 0;
+}
 
-  .bottomGif {
-    width: 35vw;
-    margin-left: 5vw;
-    margin-right: 5vw;
-    float: left;
-      /* margin: auto; */
-      border-radius: 6px;
-      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+.gifContainer {
+  margin: auto;
+  display: block;
+  height: 140vh;
+  background: rgba(255, 255, 255, 0.416);
+  box-shadow: inset 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+  padding-bottom: 30px;
+  margin-bottom: 70px;
+  margin-top: 35px;
+  border-top: 3px gray;
+  border-bottom: 3px gray;
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+
+.bottomGif {
+  width: 35vw;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  margin-top: 5vw;
+  float: left;
+  /* margin: auto; */
+  border-radius: 6px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media only screen and (max-width: 1200px) {
+  .firstContainer {
+    width: 85vw;
   }
+}

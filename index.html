@@ -2,7 +2,7 @@
 <html lang="en"><head>
   <meta charset="utf-8">
 
-  <title>Lectrue</title>
+  <title>Lisse</title>
   <meta name="description" content="shouldwear">
   <!-- <meta name="author" content="SitePoint"> -->
 
@@ -14,44 +14,48 @@
 <body>
     <img src="firstShotLIGHT.jpg" class="firstImg" onmouseover="hoverImg(this);" onmouseout="unhoverImg(this);">
     <div class="mainContainer">
-        <h1>Lectrue</h1>
+      <div id="logoContainer">
+        <h1>Lisse</h1> <img src="icons/logo.png" id="logo">
+      </div> 
         <h2>Your lectures together again</h2>
-      <button class="downloadButton">Download</button>
+      <form method="get" action="Lisse_1.0_Installer.pkg">
+        <button class="downloadButton" type="submit">Download</button>
+     </form>
     </div>
 <div class="firstContainer">
   <ul id="list">
 <!-- 0 -->
     <li class="item">
       <div class="icon" id="icon" onmouseover="hoverSvg(this);" onmouseout="unhoverSvg(this);">
-        <img src="flagRegular.png" class="iconSvg">
+        <img src="icons/flagRegular.png" class="iconSvg">
     </div>
     <div class="detail"><p>Use flags to remember where you need to do work</p></div>
     </li>
 <!-- 1 -->
     <li class="item">
       <div class="icon">
-        <img src="textCursor.png" class="iconSvg">
+        <img src="icons/textCursor.png" class="iconSvg">
     </div>
     <div class="detail"><p>Quick text formatting keeps you focused</p></div>
     </li>
     <!-- 2 -->
     <li class="item">
       <div class="icon">
-        <img src="cursor.png" class="iconSvg">
+        <img src="icons/cursor.png" class="iconSvg">
     </div>
     <div class="detail"><p>Easy and intuitive drag and drop</p></div>
     </li>
     <!-- 3 -->
     <li class="item">
       <div class="icon">
-        <img src="lock.png" class="iconLock">
+        <img src="icons/lock.png" class="iconLock">
     </div>
     <div class="detail"><p>Private and secure, all data is stored on disk</p></div>
     </li>
         <!-- 3 -->
         <li class="item">
           <div class="icon">
-            <img src="nowifi.png" class="iconSvg">
+            <img src="icons/nowifi.png" class="iconSvg">
         </div>
         <div class="detail"><p>No Wifi required</p></div>
         </li>
@@ -60,8 +64,9 @@
 
 </div>
 <div class="gifContainer">
-  <img src="dragDrop.gif" class="bottomGif">
-  <img src="textFormatting.gif" class="bottomGif">
+  <img src="gif/dragDrop.gif" class="bottomGif">
+  <img src="gif/textFormatting.gif" class="bottomGif">
+  <img src="gif/output.gif" class="bottomGif">
 </div>
 </body>
   <script src="script.js"></script>
