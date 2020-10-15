@@ -1,9 +1,9 @@
 function hoverImg(element) {
-    element.setAttribute('src', 'firstShotLIGHT.jpg');
+    element.setAttribute('src', 'firstShotLIGHT1.jpg');
   }
   
   function unhoverImg(element) {
-    element.setAttribute('src', 'firstShotDARK.jpg');
+    element.setAttribute('src', 'firstShotDARK1.jpg');
   }
 
   function hoverSvg(element) {
