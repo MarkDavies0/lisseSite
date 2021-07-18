@@ -17,3 +17,12 @@ function hoverImg(element) {
     ele.setAttribute('src', 'icons/flagRegular.png');
     ele.style.transform = 'scale(1.0)';
   }
+
+  function updateFooterDate() {
+    const date = new Date();
+    document.getElementById('footer').innerHTML = `© ${date.getFullYear()} <a href="https://www.mark--davies.com" style="color: grey;">Mark Davies</a>`;
+  }
+
+  document.addEventListener('DOMContentLoaded', (event) => {
+    updateFooterDate();
+  })

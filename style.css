@@ -265,6 +265,16 @@ body {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+#footer {
+  margin: auto;
+  display: block;
+  color: grey;
+  font-size: 13px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
 @media only screen and (max-width: 1200px) {
   .firstContainer {
     width: 85vw;
